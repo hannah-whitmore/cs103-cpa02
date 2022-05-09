@@ -22,14 +22,23 @@ const axios = require("axios")
 const mongoose = require( 'mongoose' ); 
 
 //const mongodb_URI = process.env.mongodb_URI 
-//const mongodb_URI = 'mongodb://localhost:27017/cs103a_todo'
+//const mongodb_URI = 'mongodb://localhost:27017/cs103a'
+
+//const mongodb_URI = process.env.mongodb_URI
 
 const mongodb_URI = 'mongodb+srv://hannahwhitmore:hrw@cluster0.f8fsl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
-mongoose.connect( mongodb_URI, { useNewUrlParser: true, useUnifiedTopology: true } );
-// fix deprecation warnings
+
+mongoose.connect( mongodb_URI,
+              { useNewUrlParser: true, useUnifiedTopology: true } );
+// fix deprecation warnings....
 mongoose.set('useFindAndModify', false); 
 mongoose.set('useCreateIndex', true);
+
+
+
+//mongoose.connect( mongodb_URI, { useNewUrlParser: true, useUnifiedTopology: true } );
+
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
@@ -168,7 +177,8 @@ app.use(function(err, req, res, next) {
 //  Starting up the server!
 // *********************************************************** //
 //Here we set the port to use between 1024 and 65535  (2^16-1)
-const port = "3100";
+const port = process.env.PORT || "3100";
+console.log('connecting on port '+port)
 app.set("port", port);
 
 // and now we startup the server listening on that port
