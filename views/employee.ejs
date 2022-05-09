@@ -1,0 +1,16 @@
+<h2>Enter Employee Information</h2>
+<form method="post" action="/employee/enterInfo">
+    Employee name :<input type="text" name="Name"><br>
+    Title:<input type="text" name="Title"><br>
+    Hourly Rate:<input type="number" name="Rate"><br>
+    Avg Hours Worked Per Week:<input type="number" name="Hours"><br>
+    Company:<input type="text" name="Company"><br>
+    Years Worked At Company :<input type="number" name="Years"><br>
+    <input type="submit" value="Save Item"><br>
+</form>
+
+<h2>enter an employee name to calculate their average monthly and yearly salary: </h2>
+<form method="post" action="/employee/lookupEmployee">
+    Employee name :<input type="text" name="findEmployee"><br>
+    <input type="submit" value="Submit"><br>
+</form>
