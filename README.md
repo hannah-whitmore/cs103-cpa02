@@ -1,8 +1,8 @@
 # cs103-cpa02
 ## To run this app :
-Download the project from github and dowload nodejs and npm from https://nodejs.org and cd into the folder
-Install the packages by running the command : npm install, then npm start
-Run the project by running the command : node app.js
+### Download the project from github and dowload nodejs and npm from https://nodejs.org and cd into the folder
+### Install the packages by running the command : npm install, then npm start
+### Run the project by running the command : node app.js
 
 
 
