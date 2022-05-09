@@ -48,6 +48,7 @@ db.once('open', function() {console.log("we are connected!!!")});
 
 // *********************************************************** //
 // Initializing the Express server 
+//
 // This code is run once when the app is started and it creates
 // a server that respond to requests by sending responses
 // *********************************************************** //
