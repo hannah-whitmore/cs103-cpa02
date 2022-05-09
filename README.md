@@ -11,4 +11,6 @@ in a database. Userscan enter their own information or another employee's inform
 employee by name, and if that employee is in the database, the app will display that employee's average monthly and yearly salary. 
 
 This app has many uses -- such as someone who is weighing their job options and wants to look at a comparable employee.
+
+### After you enter the employee information, click the save button so it enters the employee into the database. Then, you can look up an employee by name.
  
