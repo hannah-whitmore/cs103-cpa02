@@ -19,3 +19,5 @@ This app has many uses -- such as someone who is weighing their job options and 
 
 <img width="504" alt="Screen Shot 2022-05-09 at 11 09 04 AM" src="https://user-images.githubusercontent.com/64444392/167440564-3d9a5c3a-b86b-4107-a0ee-7d57badf1e59.png">
 
+
+Video pitch of my app : https://brandeis.zoom.us/rec/play/rmZUpdsXFc3PLCUmmLtmlQnOeAwTjrAirSjxIz7e9XZW_fCTHlGVdWxXI5yOss4wz38OGWSckGI87wWp.XI7LfvNqy2ezBaVV?continueMode=true&_x_zm_rtaid=XO6pWkK4TjGxaAPpLsTACQ.1652124080734.439d95b9be0d4e069e0d1c98ff011e73&_x_zm_rhtaid=601
