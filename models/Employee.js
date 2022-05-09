@@ -7,10 +7,10 @@ const Mixed = Schema.Types.Mixed;
 var employeeSchema = Schema( {
     name: String, 
     title: String, 
-    rate: Number,
-    hours_week:Number,
+    Double: Number,
+    Double:Number,
     company: String,
-    years_company: Number,
+    Double: Number,
 
 } );
 
