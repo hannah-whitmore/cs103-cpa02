@@ -24,9 +24,9 @@ const mongoose = require( 'mongoose' );
 //const mongodb_URI = process.env.mongodb_URI 
 //const mongodb_URI = 'mongodb://localhost:27017/cs103a'
 
-//const mongodb_URI = process.env.mongodb_URI
+const mongodb_URI = process.env.mongodb_URI
 
-const mongodb_URI = 'mongodb+srv://hannahwhitmore:hrw@cluster0.f8fsl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+//const mongodb_URI = 'mongodb+srv://hannahwhitmore:hrw@cluster0.f8fsl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
 
 mongoose.connect( mongodb_URI,
